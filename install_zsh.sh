@@ -11,3 +11,4 @@ sudo echo -e "alias gp=\"git pull\" \nalias tp=\"terraform plan\" \nalias taa=\"
 
 # change zsh theme
 sudo sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' ~/.zshrc
+. ~/.zshrc
