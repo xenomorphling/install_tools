@@ -1,0 +1,9 @@
+---
+- name: Provisioning
+  hosts:  localhost
+  become: true
+
+  roles:
+  - setup
+  - install
+...

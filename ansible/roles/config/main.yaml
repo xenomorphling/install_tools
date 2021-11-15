@@ -1,0 +1,9 @@
+---
+- name: Copy config files
+  ansible.builtin.copy:
+    src: files/.vimrc
+    dest: ~/.vimrc
+    owner: {{ user }}
+    group: {{ user }}
+    mode: u=rw,g=r,o=r
+...

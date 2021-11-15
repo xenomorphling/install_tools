@@ -1,0 +1,6 @@
+---
+- name: Play tasks per order
+  include_tasks: '{{ item }}' 
+  loop:
+    - vim.yaml
+...
